@@ -1,0 +1,7 @@
+{
+  "name": "pandaui",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
