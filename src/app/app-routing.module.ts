@@ -12,10 +12,6 @@ const routes: Routes = [
     path: 'detail',
     //loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
     component: PandaDetailPartComponent
-  },
-  {
-    path: 'priceData',
-    loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
   }
 ];
 @NgModule({
