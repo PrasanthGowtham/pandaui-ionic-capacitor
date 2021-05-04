@@ -5,8 +5,8 @@ import { PandaDetailPartComponent } from './panda-detail-part/panda-detail-part.
 const routes: Routes = [
   {
     path: '',
-    //loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
-    component: PandaDetailPartComponent
+    loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
+    //component: PandaDetailPartComponent
   },
   {
     path: 'detail',

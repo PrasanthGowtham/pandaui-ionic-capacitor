@@ -9,7 +9,7 @@ export class TabsPage {
 
   constructor(private route: Router) {}
 
-  backpage() {
+  nextpage() {
     this.route.navigate(['/detail']);
   }
 
